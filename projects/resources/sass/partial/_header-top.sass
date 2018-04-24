@@ -1,25 +1,30 @@
-.header-top
-	background: $green
-	padding: 19px 0 15px 0
-	.container
-		.logo
-			display: inline-block
-			a
-				@extend %ff_pacific
-				text-decoration: none
-				color: $white
-				font-size: 28px
-			+lg
-				margin-left: 5px
-		.nav-menu
-			display: inline-block
-			float: right
-			ul
-				list-style: none
-				li
-					display: inline-block
-					margin: 0 15px
-					a
-						text-decoration: none
-						color: $white
-						font-size: 13px
+.container
+    max-width: 1140px
+    margin: 0 auto
+    img
+        display: inline-block
+        height: 80px
+        width: auto
+        float: left
+        margin-top: 20px
+    nav
+        float: right
+        ul
+            margin-top: 55px
+            list-style: none
+            li
+                display: inline-block
+                margin-left: 40px
+                a
+                    padding: 8px 0
+                    text-decoration: none
+                    color: $white-color
+                    font-size: 90%
+                    text-transform: uppercase
+                    padding-bottom: 5px
+                    border-bottom: 2px solid transparent
+                    &:hover
+                        border-bottom: 2px solid $orange-color
+                a.orange
+                    color: $orange-color
+                    font-weight: 700
